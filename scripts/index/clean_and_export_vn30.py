@@ -1,6 +1,6 @@
 import pandas as pd
 
-def clean_data_vnindex_csv(csv_path):
+def clean_data_vn30_csv(csv_path):
     df_raw = pd.read_csv(csv_path)
 
     # Đặt lại tên cột (dựa trên cophieu68)
@@ -46,7 +46,7 @@ if __name__ == "__main__":
     input_csv = "vn30_raw_42pages.csv"
     output_csv = "vn30_cleaned_ohlc.csv"
 
-    df_cleaned = clean_data_vnindex_csv(input_csv)
+    df_cleaned = clean_data_vn30_csv(input_csv)
     df_cleaned.to_csv(output_csv, index=False)
 
     print(f"✅ Đã xử lý và lưu file: {output_csv}")
