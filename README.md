@@ -48,7 +48,7 @@ python scripts/index/test_index_summary.py
 Điền thông tin DB vào file .env dựa trên .env.example.
 
 🧠 Liên hệ
-Dự án phát triển bởi nhóm VSM AI Mentor – hỗ trợ AI truy vấn dữ liệu chứng khoán Việt Nam bằng tiếng Việt.
+Dự án phát triển bởi nhóm [VSM AI Mentor](https://www.vnstockaimentor.com/) – hỗ trợ AI truy vấn dữ liệu chứng khoán Việt Nam bằng tiếng Việt.
 
 ---
 
