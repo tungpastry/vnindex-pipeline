@@ -30,19 +30,20 @@ vnindex-pipeline/
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+
 🧪 Cách sử dụng
 Lấy dữ liệu lịch sử cho từng chỉ số:
-
 python scripts/index/fetch_vnindex_cophieu68.py
+
 Làm sạch dữ liệu:
-
 python scripts/index/clean_and_export_vnindex.py
+
 Import toàn bộ chỉ số vào PostgreSQL:
-
 python scripts/index/import_index_all_to_postgres.py
-Kiểm tra dữ liệu đã lưu:
 
+Kiểm tra dữ liệu đã lưu:
 python scripts/index/test_index_summary.py
+
 🐘 Kết nối PostgreSQL
 Điền thông tin DB vào file .env dựa trên .env.example.
 
@@ -51,12 +52,3 @@ Dự án phát triển bởi nhóm VSM AI Mentor – hỗ trợ AI truy vấn d�
 
 ---
 
-### 🔐 `.env.example`
-
-```env
-# PostgreSQL config
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=vsm_db
-DB_USER=vsm_user
-DB_PASSWORD=your_password_here
